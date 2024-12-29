@@ -13,6 +13,5 @@ public interface TaskService {
 	
 	public TaskDto getIndTasks(long userid, long taskid);
 	
-
 	public void deleteIndTasks(long userid, long taskid);
 }
